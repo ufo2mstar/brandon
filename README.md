@@ -1,5 +1,5 @@
 # brandon
-Ideally **Brandon _the Builder_** (shout out to ASOIF)  
+Ideally **Brandon _the Builder_** (shout out to [ASOIF])  
 Which is just to tell you what was *inspiring* me at the time I wrote this
 
 ## Reason for doing this:
@@ -11,7 +11,7 @@ Came up with this YML based directory structure.. [see here for any doubts regar
 
 todo: write the rest of this guide
 
-### Read 
+### Read
 ![alt text][yml logo]
 
 ```ruby
@@ -38,5 +38,6 @@ Markdown | Less | Pretty
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/F7JQxXhceZo/0.jpg)](https://www.youtube.com/watch?v=F7JQxXhceZo)
 
+[ASOIF]: https://en.wikipedia.org/wiki/A_Song_of_Ice_and_Fire
 [yml]: http://yaml.org/YAML_for_ruby.html
 [yml logo]: http://10minbasics.com/wp-content/uploads/2015/09/yaml_logo.gif "Logo Title Text 2"
