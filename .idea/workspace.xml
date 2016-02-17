@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f6e1a-95b4-4a7e-9956-b90b7fccd083" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log_utils/cosmetics.rb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log_utils/log.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="brandon.iws" />
     <ignored path=".idea/workspace.xml" />
