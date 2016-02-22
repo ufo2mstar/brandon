@@ -1,5 +1,5 @@
 # brandon
-Ideally **Brandon _the Builder_** (shout out to [ASOIF])  
+Ideally **Brandon _the Builder_** (shout out to [ASOIF].. thanks GRRM)  
 Which is just to tell you what was *inspiring* me at the time I wrote this
 
 ## Reason for doing this:
