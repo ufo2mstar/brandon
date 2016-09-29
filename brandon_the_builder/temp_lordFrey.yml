@@ -7,6 +7,8 @@
 #
 
 # ----------------------------------------------------------------------------------
+
+
 #rqb_east_generic.feature: a\.feature
 #rqb_east_min.feature: s\.feature
 rqb_east_min.feature: \.feature
@@ -23,5 +25,8 @@ temp_groups.rb: _groups.rb
 
 temp_fill_order.yml: _fill_order.yml
 temp_page.rb: Page.rb
+
+base_tests.rb: test(s)\.rb
+base_class.rb: \.rb
 
 #cvgs_page.txt: _east.yml

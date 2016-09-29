@@ -73,6 +73,8 @@ class BuildStruct
     # @exp_state_list << "_#{st}_claims_east.yml"
     }
 
+    @camel_file_name = @snake_file_name = "" #assigned on the #fill_file
+
     @page_names.each_with_index { |page_name, idx|
       @struct        = {}
       # @app_name      = app_root_path[/\/(.*)?$/, 1].capitalize
@@ -102,11 +104,14 @@ class BuildStruct
 
   # templater
   def fill_file(path_name)
-    page_name = path_name[/\\|\/(\w+\.\w+)/, 1]; matches = []
+    just_page_name = path_name[/\\|\/(\w+)\.\w+/, 1]; matches = []
     page_name = path_name; matches = []
+    @snake_file_name = just_page_name.snakecase
+    @camel_file_name = just_page_name.camelcase
     $plates.each { |k, v| matches << k if page_name =~ /#{v}/i }
     unless matches.empty?
-      raise "Multiple Matches!\n#{matches.to_yaml}" if matches.size > 1
+      # raise "Multiple Matches!\n#{matches.to_yaml}" if matches.size > 1
+      p "Multiple Matches!\n#{matches.to_yaml}\n using (#{matches = [matches.first]})" if matches.size > 1
       File.open(path_name, 'w') { |f| f.puts ERB.new(File.read(Dir.glob("./**/#{matches.first}.erb")[0])).result(binding) }
     end
   end

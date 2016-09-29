@@ -168,10 +168,14 @@
       - pre_processing.yml
       - processing.yml
       - post_processing.yml
-    - objects:
+    - accounts:
       - base_account.yml
   - app_main:
-    - object_render.rb
+    - account_render.rb
     - flow_render.rb
     - consume.rb
+  - app_test:
+    - account_render_tests.rb
+    - flow_render_tests.rb
+    - consume_tests.rb
   - consume.bat
