@@ -1,0 +1,26 @@
+<%
+page_name_no_ext = page_name[/(\w+)\./,1]
+tags = "@"+@states_list.join(" @")
+%><%= "@"+page_name_no_ext.snakecase %> @git @<%= @page_name %>
+
+Feature: <%= page_name_no_ext.camelcase %> Related Checks..
+
+    Background: Commonizing Starting a quote
+        Given the user begins a quote
+#        Given the user begins a quote on 12-31-2015
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @tag_name
+    <%= tags %>
+    Scenario: Please_Please_Write_Concise_and_Descriptive_Titles
+        And the user is on the Pni page
+        And the user is on the Property Information page
+        And the user is on the General Information page
+        And the user is on the Verify Information page
+        And the user is on the Coverages page
+        And the user is on the Your Policy Details page
+        And the user is on the Property Details page
+        And the user is on the Payment Plans page
+        And the user is on the Payment Information page
+        And the user is on the Payment Confirmation page
+        And the user is on the Esign page
+        And the user is on the Policy Summary page

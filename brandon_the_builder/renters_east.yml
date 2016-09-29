@@ -1,0 +1,68 @@
+#PniPage: Pni
+#PropertyInformationPage: PropInfo
+#GeneralInformationPage: GenInfo
+#VerifyInformationPage: VerifyInfo
+#CoveragesPage: Coverages
+#YourPolicyDetailsPage: YourPolicyDetails
+#PropertyDetailsPage:
+#EvtPage:
+#PaymentPlansPage: PP
+#PaymentInformationPage:
+#PaymentConfirmationPage:
+#EsignPage:
+#DocusignPage:
+#PolicySummaryPage:
+
+RetrieveQuotePage: Rq
+#SoftfallPage:
+#HardfallPage:
+
+
+#PniPage: PropertyInformationPage
+#PropertyInformationPage: GeneralInformationPage
+#GeneralInformationPage: VerifyInformationPage,CoveragesPage
+#VerifyInformationPage: CoveragesPage
+#CoveragesPage: YourPolicyDetailsPage
+#YourPolicyDetailsPage: PropertyDetailsPage
+#PropertyDetailsPage: EvtPage,PaymentPlansPage
+#EvtPage: PaymentPlansPage
+#PaymentPlansPage: PaymentInformationPage
+#PaymentInformationPage: PaymentConfirmationPage
+#PaymentConfirmationPage: EsignPage
+#EsignPage: DocusignPage,PolicySummaryPage
+#DocusignPage: PolicySummaryPage
+#PolicySummaryPage:
+#
+#SoftfallPage:
+#HardfallPage:
+#
+#PniPage:
+#PropertyInformationPage:
+#GeneralInformationPage:
+#VerifyInformationPage:
+#CoveragesPage:
+#YourPolicyDetailsPage:
+#PropertyDetailsPage:
+#EvtPage:
+#PaymentPlansPage:
+#PaymentInformationPage:
+#PaymentConfirmationPage:
+#EsignPage:
+#DocusignPage:
+#PolicySummaryPage:
+#
+#
+#Pni page
+#Property Information page
+#General Information page
+#Verify Information page
+#Coverages page
+#Your Policy Details page
+#Property Details page
+#Evt page
+#PaymentPlans page
+#Payment Information page
+#Payment Confirmation page
+#Esign page
+#Docusign page
+#Policy Summary page

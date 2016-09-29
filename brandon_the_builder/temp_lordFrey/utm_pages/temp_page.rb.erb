@@ -1,0 +1,16 @@
+# Pattern: <%= @short_page_name %>Page < <%= @app_name %>FatherPage < EvePage
+Dir[File.dirname(__FILE__)+"/action*/_*.rb"].each { |f| require f }
+Dir[File.dirname(__FILE__)+"/element*/_*.rb"].each { |f| require f }
+
+class <%= @page_name %> < <%= @app_name %>FatherPage
+  include <%= @short_page_name %>Elements # page elements
+  include <%= @short_page_name %>Actions # navigation actions
+  include <%= @short_page_name %>Rules # B Rules for validation
+  include <%= @short_page_name %>Data # Date Retrieve Logic
+
+  def init_files
+    @child_file_location = File.dirname(__FILE__)
+    super
+  end
+
+end

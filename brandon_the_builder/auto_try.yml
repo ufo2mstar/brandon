@@ -1,0 +1,35 @@
+<%
+base_exp= %w[_base_labels.yml _base_lists.yml _base_text.yml]
+base_list = nil
+base_exp_pni = base_exp
+base_inp_pni= [{"kod"=> ["sdf"]}, "_base_name_info.yml","_base_dob_info.yml", "_base_spouse_group.yml"]
+%>
+
+  
+#RetrieveQuotePage:
+QuoteStartPage: QuoteStart
+PniPage: Pni
+#VehiclePrefillPage:
+#VehicleSummaryPage:
+AddVehiclePage: AddVehicle
+#EditVehiclePage:
+AddDriverPage: AddDriver
+#EditDriverPage:
+#PolicyInformationPage:
+#DiscountsPage:
+#VerifyInformationPage:
+#QuoteCoveragesPage:
+#VehicleCostNewPage:
+#AdditionalPolicyInformationPage:
+#AdditionalHouseholdMembersPage:
+#AdditionalDriverInformationPage:
+#AdditionalVehicleInformationPage:
+#AdditionalInformationPage:
+#RateChangePage:
+#BindCoveragesPage:
+#PaymentPlansPage:
+#PaymentInformationPage:
+#PaymentConfirmationPage:
+#ESignPage:
+#AccountCreationPage:
+#PolicySummaryPage:

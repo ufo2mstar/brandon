@@ -1,0 +1,27 @@
+# Guide:
+# Template File Name : regex to look for in the file created..
+#eg:
+# txt_template.txt: \.txt
+# 1) matches the newly created file name : "some_file.txt" =~ /\.txt/
+# 2) if it matches a unique key, it uses the template from txt_template.txt.erb in the "temp_lordFrey" directory
+#
+
+# ----------------------------------------------------------------------------------
+#rqb_east_generic.feature: a\.feature
+#rqb_east_min.feature: s\.feature
+rqb_east_min.feature: \.feature
+#rqb_east_blank.feature: \.feature
+#renters_east_git.feature: \.feature
+
+
+_temp_data_retrieve.rb: _data_retrieve.rb
+_temp_nav_steps.rb: _nav_steps.rb
+_temp_rules.rb: _rules.rb
+
+_temp_elements.rb: _elements.rb
+temp_groups.rb: _groups.rb
+
+temp_fill_order.yml: _fill_order.yml
+temp_page.rb: Page.rb
+
+#cvgs_page.txt: _east.yml

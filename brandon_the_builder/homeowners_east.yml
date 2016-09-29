@@ -1,0 +1,30 @@
+<%
+base_list = nil
+base_exp= %w[_base_labels.yml _base_lists.yml _base_text.yml]
+base_exp_pni = base_exp
+base_inp_pni= [{"kod"=> ["sdf"]}, "_base_name_info.yml","_base_dob_info.yml", "_base_spouse_group.yml"]
+%>
+
+
+quote_start: nil
+pni:
+#  exp: <%= base_exp_pni %>
+#  inp: <%= base_inp_pni %>
+prop_info:
+  exp: <% base_list %>
+  inp:
+gen_info:
+  exp: <% base_list %>
+  inp:
+verify_info:
+  exp: <% base_list %>
+  inp:
+quote:
+  exp: <% base_list %>
+  inp:
+softfall:
+  exp: <% base_list %>
+  inp:
+hardfall:
+  exp: <% base_list %>
+  inp:

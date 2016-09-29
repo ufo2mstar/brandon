@@ -1,0 +1,12 @@
+<%
+page_name_no_ext = page_name[/(\w+)\./,1]
+tags = "@"+@states_list.join(" @")
+%><%= "@"+page_name_no_ext.downcase %> @e2e
+
+Feature: <%= page_name_no_ext %> stuff..
+
+    Background: background
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    @tag_name
+    <%= tags %>
+    Scenario: rqb happy path

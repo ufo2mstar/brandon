@@ -1,0 +1,26 @@
+<%
+page_name_no_ext = page_name[/(\w+)\./,1]
+tags = "@"+@states_list.join(" @")
+%><%= "@"+page_name_no_ext.downcase %>
+
+Feature: <%= page_name_no_ext %> stuff..
+
+  Background: Everything in life begins.. with.. an Effective Date!
+#	And the user is on the PNI page with an effective date of 06-15-2015
+#	And the user is on the PNI page with an effective date of today
+#	And the user is on the PNI page
+#  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  @reg_try
+  <%= tags %>
+  Scenario: renters qb states pure happy path
+#	And the user is on the PNI page
+#	And the user is on the property information page
+#	And the user is on the confirmation page
+#	And the user is on the coverages page
+#	And the user proceeds to the additional household info page
+#	And the user proceeds to the payment page
+#	And the user proceeds to the payment confirmation page
+#	And the user proceeds to the landing page
+#	And the user proceeds to the docusign page
+#	And the user proceeds to the summary page
+#	And the user binds the policy

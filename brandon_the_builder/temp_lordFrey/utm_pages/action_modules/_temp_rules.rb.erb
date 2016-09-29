@@ -1,0 +1,40 @@
+# All Methods are suppose to return only kinda true or false-ish things!!
+module <%= @short_page_name %>Conditions
+  # def are_you_married?
+  #   # return self.marital_status == "Married" # page specific condition
+  #   # if $quote_data[@page_name]['MARITAL_STATUS'] == 'Married'
+  #   $hsh and $quote_data[@page_name] ? $quote_data[@page_name]['MARITAL_STATUS'] == 'Married' : self.marital_status == "Married"
+  #   # true
+  # end
+end
+
+module <%= @short_page_name %>Rules
+  #todo extend Binding_maker
+  include <%= @short_page_name %>Conditions
+
+#   def married_elements
+#     are_you_married? ? %w[spouse_first_name spouse_middle_initial spouse_last_name spouse_suffix spouse_birthday] : []
+#   end
+# 
+#   def married_labels
+#     are_you_married? ? %w[SPOUSE_INFO_LABEL SPOUSE_NAME_LABEL SPOUSE_FIRST_NAME_LABEL
+# SPOUSE_MIDDLE_INITIAL_LABEL SPOUSE_LAST_NAME_LABEL SPOUSE_SUFFIX_LABEL SPOUSE_BIRTHDAY_LABEL] : []
+#   end
+# 
+# def remove_list
+#   ["!spouse_first_name", "!spouse_middle_initial"] # add ! to remove the elements from validation
+# end
+
+# def view_specific_help_box_items
+#   res = []
+#   res << "HELP_NUMBER"
+#   return res if browser_size =~ /mobile/
+#   res << "HELP_BUTTON"
+#   return res if browser_size =~ /tablet/
+#   # res << "HELP_BOX"
+#   res << ["HELP_BOX1","HELP_BOX2"]
+#   return res if browser_size =~ /desktop/
+#   # todo : note.. you can also do !FIELD_NAME which will remove it from the existing list
+#   raise "\nbrowser_size check is not working!\n #{res} if #{browser_size}\n"
+# end
+end

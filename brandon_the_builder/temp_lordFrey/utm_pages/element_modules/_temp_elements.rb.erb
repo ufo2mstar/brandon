@@ -1,0 +1,21 @@
+Dir[File.dirname(__FILE__)+"/*.rb"].each { |f| require f } # incase we add more modules
+
+module <%= @short_page_name %>Elements
+  include PageObject
+  extend <%= @short_page_name %>ElementGroup
+
+  # Add state specific method addition logic!
+  special_elements env_state
+
+  case lob
+  when /^re/
+    renters_elements
+  when /^ho/
+    homeowners_elements
+  when /^co/
+    condo_elements
+  else
+    all_elements
+  end
+
+end

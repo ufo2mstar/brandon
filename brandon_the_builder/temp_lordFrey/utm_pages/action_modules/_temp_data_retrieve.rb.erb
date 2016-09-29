@@ -1,0 +1,14 @@
+module <%= @short_page_name %>Data
+#   1 - Define Data Distribution format
+#   2 - What to do to assemble the raw_data
+#   3 - always return a Hash! that goes into filling the page
+  def parse key, data
+    case key.to_s
+      when /part_of_file_name/i
+          # make a_hsh from data
+        return a_hsh
+      else
+        super key, data
+    end
+  end
+end

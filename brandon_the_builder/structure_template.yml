@@ -1,0 +1,177 @@
+#Guide:
+#Root_directory:
+#  - Files_inside_dirs_are_items_in_the_ary.txt
+#  - sub_dirs_are_keys_inside_the_ary:
+#    - Files_inside_subdirs__note_indents.txt
+#  - Another_sample_file_under_root_dir.dat
+# ----------------------------------------------------------------------------------
+
+#<%= noed_page_name %>:
+#  - action_modules:
+#    - _<%= page_name %>_data_retrieve.rb
+#    - _<%= page_name %>_nav_steps.rb
+#    - _<%= page_name %>_rules.rb
+#  - element_modules:
+#    - _<%= page_name %>_elements.rb
+#    - <%= page_name %>_groups.rb
+#  - _exp:
+#    - base_exp: <%= @exp_base %>
+#    - <%= @exp_state_list %>
+#  - _inp:
+#    - base_inp: <%= @inp_base %>
+#    - <%= @inp_state_list %>
+#  - <%= page_name %>_page.rb
+#  - <%= page_name %>_fill_order.yml
+
+##TEST: ------------------------------------------------------------------------------
+#<%= noed_page_name %>:
+#  - exp:
+#    - <%= @exp_state_list %>
+#  - inp:
+#    - <%= @inp_state_list %>
+
+## Regression!: -----------------------------------------------------------------------
+#<%= noed_page_name %>:
+#  - downstream:
+#    - EBI.feature
+#    - FPS.feature
+#    - LMA.feature
+#  - emails_and_documents:
+#    - quote_page_docs.feature
+#    - policy_page_docs.feature
+#  - functionality:
+#    - softfall:
+#      - claims_sf.feature
+#      - gis_sf.feature
+#    - hardfall:
+#      - claims_hf.feature
+#      - fire_hf.feature
+#    - claims.feature
+#    - address.feature
+#    - agents.feature
+#    - discounts.feature
+#    - payment.feature
+#    - account_creation.feature
+#    - coverages.feature
+#    - cross_sell.feature
+#    - docusign.feature
+#  - manual:
+#    - different_views.feature
+#    - different_browsers.feature
+#  - UI:
+#    - error_messages.feature
+#    - help_content.feature
+#    - static_fields.feature
+#------------------------------------------------------------------------
+
+#KOD:
+#  - 01_all_protective_devices.yml
+#  - 02_rework.yml
+#  - 03_nw_products.yml
+#  - 04_other_discounts.yml
+#  - 05_contact_info.yml
+
+#------------------------------------------------------------------------
+##Crank specific
+#<%= noed_page_name %>:
+#  - action_modules:
+#    - _<%= @short_page_name %>_data_retrieve.rb
+#    - _<%= @short_page_name %>_nav_steps.rb
+#    - _<%= @short_page_name %>_rules.rb
+#  - element_modules:
+#    - _<%= @short_page_name %>_elements.rb
+#    - <%= @short_page_name %>_groups.rb
+#  - _exp:
+#    - base_exp: ['lists.yml','texts.yml','helps.yml']
+#    - <%= @exp_state_list %>
+#  - _inp:
+#    - base_inp: ['thing1.yml','thing2.yml']
+#    - <%= @inp_state_list %>
+#  - <%= page_name %>.rb
+#  - <%= page_name %>_fill_order.yml
+
+##  feature template: - #todo to templatize someday!
+#<%= @app_name %>:
+#  - base:
+#    - app_stuff:
+#      - db_stuff.yml
+#      - nav_paths.yml
+#      - page_ids.yml
+#      - urls.yml
+#    - father_page.rb
+#  - pages:
+#  - scenarios:
+#    - reg:
+#    - run:
+#      - RunAttempt.feature
+#    - dojo.feature
+#  - step_definitions:
+#    - step_modules:
+#      - quote_starter.rb
+#    - nav.rb
+#    - test.rb
+#  - support:
+#    - nav_rider.rb
+#  - env.rb
+#  - requirer.rb
+
+
+#========================================================================
+## UAT Scen template:
+#<%= noed_page_name %>:
+#  - 01_OVERALL:
+#    - Page_Validation_-_All_Pages_.feature
+#    - Server_or_Client_side_Error_Message_Validation_-_All_Pages.feature
+#    - EBI_-_All_fields_pages.feature
+#    - Pagelet.feature
+#    - Coverages_-_comprehensive...feature
+#  - 02_SPECIFIC:
+#    - Claims_(PLH_Up_and_Down).feature
+#    - PNI_address_and_GIS_scenarios.feature
+#    - Discounts.feature
+#    - Pagelets.feature
+#    - CrossSell.feature
+#    - Payment_Stuff.feature
+#    - Retrieve.feature
+#    - Documents.feature
+#    - Future_eff_date.feature
+#  - 03_FALLS:
+#    - SuppHeating.feature
+#    - Childcare.feature
+#    - Condo_HO_Renters.feature
+#    - PropDetails.feature
+#  - 04_PPC:
+#    - PPC.feature
+##
+
+#========================================================================
+#<%= noed_page_name %>:
+#  - Broker.feature
+#  - DB_storage.feature
+#  - _content.feature
+#  - _gen_func.feature
+#  - _soft_and_hard_fall.feature
+#========================================================================
+
+#EXP_LIST:
+#  - <%= @exp_state_list %>
+
+#========================================================================
+
+<%= noed_page_name %>:
+  - support:
+    - log_utils.rb
+    - html_formatter.rb
+    - json_formatter.rb
+  - config:
+    - flows:
+      - pre_processing.yml
+      - processing.yml
+      - post_processing.yml
+    - objects:
+      - base_account.yml
+  - app_main:
+    - object_render.rb
+    - flow_render.rb
+    - consume.rb
+  - consume.bat

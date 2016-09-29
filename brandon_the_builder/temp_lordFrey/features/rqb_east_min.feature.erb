@@ -1,0 +1,11 @@
+<%
+page_name_no_ext = @page_name[/(\w+)\./,1]
+tags = "@"+@states_list.join(" @")
+%><%# "@"+page_name_no_ext.downcase %>
+@critical
+<%= tags %>
+Feature: ___ feature..
+
+    Background: background_if_any
+
+    Scenario: new_title

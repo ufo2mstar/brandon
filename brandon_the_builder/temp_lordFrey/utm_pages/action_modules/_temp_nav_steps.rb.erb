@@ -1,0 +1,16 @@
+module <%= @short_page_name %>Actions
+  def go_to(page, key = nil)
+  to_page = page.to_s
+  case to_page
+    when /NextPage/
+      go_forth(key || :DEFAULT)
+    when /PrevPage/
+      retreat
+    else
+        super to_page
+      # super has below:
+      # fail BadInputDataError, "\n'#{to_page}'\n is Not a page i can go to good sir!\n\n"
+  end
+  wait_for_it page
+  end
+end
