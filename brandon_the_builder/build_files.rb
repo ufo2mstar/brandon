@@ -188,7 +188,7 @@ tic
 # regr = BuildStruct.new '.', %w(MortgageInformationPage), %w[common renters homeowners condo]
 # regr = BuildStruct.new '.', %w(PaymentMethodPage), %w[common renters homeowners condo]
 
-regr = BuildStruct.new '.', %w(Consumption_app)
+regr = BuildStruct.new '.', %w(pipelines_app)
 # todo : maybe even templatize the $#!T out of all the classes.. once its standardized enough!
 # app_name  = "auto"
 # app_struct= yaml_load ERB.new(File.read("#{app_name}_try.yml")).result binding

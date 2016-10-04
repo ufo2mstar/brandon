@@ -163,19 +163,26 @@
     - log_utils.rb
     - html_formatter.rb
     - json_formatter.rb
+    - yaml_rider.rb
   - config:
     - flows:
-      - pre_processing.yml
-      - processing.yml
-      - post_processing.yml
-    - accounts:
-      - base_account.yml
+      - pre_proc.yml
+      - proc.yml
+      - post_proc.yml
+    - molecules:
+      - base_molecule.yml
+    - queue:
+      - base_queue.yml
   - app_main:
-    - account_render.rb
+    - molecule_render.rb
     - flow_render.rb
+    - custom_queue.rb
+    - pipelines.rb
     - consume.rb
   - app_test:
-    - account_render_tests.rb
+    - molecule_render_tests.rb
     - flow_render_tests.rb
+    - custom_queue_tests.rb
+    - pipelines_tests.rb
     - consume_tests.rb
   - consume.bat
