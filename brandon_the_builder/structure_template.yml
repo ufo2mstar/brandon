@@ -169,8 +169,8 @@
       - pre_proc.yml
       - proc.yml
       - post_proc.yml
-    - molecules:
-      - base_molecule.yml
+    - groups:
+      - base_item.yml
     - queue:
       - base_queue.yml
   - app_main:
