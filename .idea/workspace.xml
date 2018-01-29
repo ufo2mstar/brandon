@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f6e1a-95b4-4a7e-9956-b90b7fccd083" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/brandon.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brandon_the_builder/structure_template.yml" afterPath="$PROJECT_DIR$/brandon_the_builder/structure_template.yml" />
     </list>
     <ignored path="brandon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -430,7 +423,7 @@
       <workItem from="1475114111015" duration="5298000" />
       <workItem from="1475547051975" duration="5866000" />
       <workItem from="1475799950956" duration="1532000" />
-      <workItem from="1517194330342" duration="124000" />
+      <workItem from="1517194330342" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="CODE: log specs added">
       <created>1455744255808</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475559120965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CODE: revamp start">
+      <created>1517194481907</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517194481907</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -503,7 +503,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12820000" />
+    <option name="totallyTimeSpent" value="12854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -574,7 +574,8 @@
     <MESSAGE value="CODE: old stuff" />
     <MESSAGE value="CODE: some mods stuff" />
     <MESSAGE value="CODE: heres more mod stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="CODE: heres more mod stuff" />
+    <MESSAGE value="CODE: revamp start" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODE: revamp start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
