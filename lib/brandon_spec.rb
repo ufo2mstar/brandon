@@ -1,7 +1,8 @@
 require 'rspec'
+require 'find'
 require_relative 'brandon'
 
-describe Brandon do
+describe Brandon, :unit do
   let(:curr_dir) {File.dirname(__FILE__)}
   let(:root_dir) {"."}
 
@@ -77,6 +78,35 @@ describe Brandon do
 
   context Brandon::Builder do
 
+    def build_subject paths_ary
+      Brandon::Builder.new paths_ary
+    end
+
+    def build_res ary, dir
+      ary.map {|loc| "#{dir}#{loc}"}
+    end
+
+    it "errors for blank input paths" do
+      expect {build_subject nil}.to raise_error(Brandon::NoPathsWarning)
+      expect {build_subject []}.to raise_error(Brandon::NoPathsWarning)
+    end
+
+    it "creates files and folders" do
+      Dir.mktmpdir do |dir|
+        paths_ary = ["/main2/", "/main2/sub1/", "/main2/sub1/sub2/", "/main2/sub1/sub2/one", "/main2/sub1/sub2/two", "/main2/sub1/sub2/3", "/main2/sub1/sub3/", "/main2/sub1/sub3/2342"]
+        # paths_ary = ["/main2/", "/main2/sub1/", "/main2/sub1/sub2/", "/main2/sub1/sub2/one", "/main2/sub1/sub2/2342"]
+        # paths_ary = ["/main2/", "/main2/sub1.txt", "/main2/sub3/"]
+
+        paths_ary = build_res paths_ary, dir
+        sub = build_subject(paths_ary)
+        sub.build
+
+        walk = Find.find("#{dir}/").map {|path| File.file?(path) ? path : "#{path}/"}
+        walk.shift # remove the top level dir path from the ary
+
+        expect(walk).to match_array(paths_ary)
+      end
+    end
   end
 
   context "Static methods" do
@@ -87,21 +117,39 @@ describe Brandon do
     end
 
     it "foundation" do
-
+      Dir.mktmpdir do |dir|
+        # curr_file = FileUtils.touch "#{dir}/sample.txt"
+        Brandon.foundation dir
+        walk = Find.find("#{dir}/").map {|path| File.file?(path) ? path : "#{path}/"}
+        exp = walk.pop
+        res = [dir, '/sample_template', '.yml'].join
+        expect(exp).to eq(res)
+      end
     end
 
     it "file_parse" do
-      curr_file = __FILE__
-      exp = Brandon.file_parse curr_file
-      res = ["C:/Users/kyu-homebase/repos/gems/brandon/lib", "brandon_spec", ".rb"]
-      expect(exp).to eq(res)
+      Dir.mktmpdir do |dir|
+        curr_file = "#{dir}/sample.txt"
+        exp = Brandon.file_parse curr_file
+        res = [dir, 'sample', '.txt']
+        expect(exp).to eq(res)
+      end
     end
 
   end
 
   context "ultimately" do
     it "should take the tree yml and create the directory structure" do
+      Dir.mktmpdir do |dir|
+        dir = "."
+        Brandon.foundation dir
+        Brandon.build "#{dir}/sample_template.yml"
 
+        walk = Find.find("#{dir}/").map {|path| File.file?(path) ? path : "#{path}/"}
+        walk.shift # remove the top level dir path from the ary
+
+        expect(walk).to match_array(paths_ary)
+      end
     end
   end
 

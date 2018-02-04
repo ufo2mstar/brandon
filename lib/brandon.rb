@@ -11,19 +11,43 @@ module Brandon
 
   # build procedure
   # @param [Object] tree_file the yml input that you want to build
-  def self.build tree_file = nil
-    foundation unless tree_file
-    root_dir, file_name, file_ext = file_parse tree_file
+  def self.build tree_file #= "." # get current executing directory
+    # setup
+    curr_dir, file_name, file_ext = file_parse tree_file
+    foundation(curr_dir) unless tree_file
+    root_dir = "#{curr_dir}/#{file_name}/"
+
+    # read in file
     tree_hash = Reader.new tree_file
+
+    # parse paths
     paths = Parser.new root_dir, tree_hash
+    paths.unshift root_dir
+
+    # build tree structure
     bran = Builder.new paths
     bran.build
   end
 
-  def self.foundation
-    template_file = ""
+  def self.foundation curr_dir = "."
+    template_file = "#{curr_dir}/sample_template.yml"
     raise OverwriteError, "#{template_file} already exists! lets not overwrite it..", caller if File.exist? template_file
-    # FileUtils.copy template_file, target_dir
+    str = <<-eos
+one:
+  two:
+    - :one
+    - 'two'
+    - "three"
+    - 4
+    - five
+    - Object:
+      - more
+      - 'stuff'
+  three:
+  four: "kod"
+"Two":
+    eos
+    File.open(template_file, 'w') {|f| f.puts str}
   end
 
   def self.file_parse(tree_file)
@@ -54,7 +78,6 @@ module Brandon
       @hsh = {} unless hsh
     end
 
-
   end
 
   # to get the root dir and yml and build the queue of paths (dirs and file paths)
@@ -72,12 +95,6 @@ module Brandon
     end
 
     private
-
-    # Just checks to see if root directory already has a *bran* trace
-    # @return [Nil]
-    def check_if_overwriting loc
-      raise OverwriteError, "#{loc} already exists! really want to overwrite it?", caller if File.exist? loc
-    end
 
     # Starts the Breadth-First'ish traversal into the tree
     # @param [Hash] struct the tree hash that you want to build
@@ -146,10 +163,10 @@ module Brandon
     # get the paths queue and builds it all out
     # @param [Array<Paths>] paths dirs and files to be created
     def initialize paths
-      raise(NoPathsWarning, "No parsed paths to build!") if paths.empty?
+      raise(NoPathsWarning, "No parsed paths to build!") if paths.nil? or paths.empty?
       check_if_overwriting paths[0]
       @paths = paths
-      # build paths
+      # build
     end
 
     def build
@@ -163,6 +180,12 @@ module Brandon
     end
 
     private
+
+    # Just checks to see if root directory already has a *bran* trace
+    # @return [Nil]
+    def check_if_overwriting loc
+      raise OverwriteError, "#{loc} already exists! really want to overwrite it?", caller if File.exist? loc
+    end
 
     def make_dir(path_name)
       FileUtils::mkdir_p(path_name) # takes care of creating parents too, as needed
