@@ -68,3 +68,29 @@ class Brandon
 
 
 end
+
+
+module High
+  # LVL 1
+  class Reader
+    # to get the yml location and read it
+    # init parser and send it path_to_the_root_dir, tree_hash read from the yml
+  end
+
+  class Parser
+    # to get the root dir and yml and build the queue of paths (dirs and file paths)
+  end
+
+  class Builder
+    # get the paths queue and builds it all out
+  end
+
+  # LVL 2
+  class Templater
+    # opens the files and applies the appropriate templates
+
+    # understands the meta tree structure
+    # binds the appropriate variables
+    # erbs the sht out of the templates :)
+  end
+end
