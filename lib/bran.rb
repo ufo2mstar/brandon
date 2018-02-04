@@ -1,15 +1,25 @@
 #!/usr/bin/env ruby
 require 'gli'
-require 'hacer'
+# require 'hacer'
 
 include GLI::App
 
-program_desc 'A simple todo list'
+program_desc 'template scaffold builder'
 
 flag [:t,:tasklist], :default_value => File.join(ENV['HOME'],'.todolist')
 
 pre do |global_options,command,options,args|
   $todo_list = Hacer::Todolist.new(global_options[:tasklist])
+end
+
+desc "Give the tree structure yml file location"
+command :tree do |c|
+
+end
+
+desc "Give the meta-tree structure yml file location along with the tree"
+command :meta do |c|
+
 end
 
 command :add do |c|

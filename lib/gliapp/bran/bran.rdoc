@@ -1,0 +1,5 @@
+= bran
+
+Generate this with
+    bran rdoc
+After you have described your command line interface

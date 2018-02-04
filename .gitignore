@@ -105,7 +105,7 @@ build-iPhoneSimulator/
 brandon_the_builder/Consumption_app/
 brandon_the_builder/pipelines_app/
 
-.idea
+.idea/*
 
 gemfile.lock
 
