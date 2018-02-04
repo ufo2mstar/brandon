@@ -18,10 +18,12 @@ module Brandon
     root_dir = "#{curr_dir}/#{file_name}/"
 
     # read in file
-    tree_hash = Reader.new tree_file
+    reader = Reader.new tree_file
+    tree_hash = reader.hsh
 
     # parse paths
-    paths = Parser.new root_dir, tree_hash
+    parser = Parser.new root_dir, tree_hash
+    paths = parser.paths
     paths.unshift root_dir
 
     # build tree structure
@@ -37,14 +39,14 @@ one:
   two:
     - :one
     - 'two'
-    - "three"
+    - "three.txt"
     - 4
-    - five
+    - five.js
     - Object:
       - more
       - 'stuff'
   three:
-  four: "kod"
+  four: "kod.rb"
 "Two":
     eos
     File.open(template_file, 'w') {|f| f.puts str}

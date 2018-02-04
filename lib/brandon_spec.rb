@@ -137,16 +137,42 @@ describe Brandon, :unit do
     end
 
   end
+end
+
+describe Brandon, :integration do
+  def build_res ary, dir
+    ary.map {|loc| "#{dir}#{loc}"}
+  end
 
   context "ultimately" do
     it "should take the tree yml and create the directory structure" do
       Dir.mktmpdir do |dir|
-        dir = "."
+        # dir = "."
         Brandon.foundation dir
         Brandon.build "#{dir}/sample_template.yml"
 
         walk = Find.find("#{dir}/").map {|path| File.file?(path) ? path : "#{path}/"}
         walk.shift # remove the top level dir path from the ary
+        # puts walk
+        paths_ary = %W[
+sample_template/
+sample_template/Two/
+sample_template/one/
+sample_template/one/four/
+sample_template/one/four/kod.rb
+sample_template/one/three/
+sample_template/one/two/
+sample_template/one/two/4
+sample_template/one/two/Object/
+sample_template/one/two/Object/more
+sample_template/one/two/Object/stuff
+sample_template/one/two/five.js
+sample_template/one/two/one
+sample_template/one/two/three.txt
+sample_template/one/two/two
+sample_template.yml
+        ]
+        paths_ary = build_res paths_ary, "#{dir}/"
 
         expect(walk).to match_array(paths_ary)
       end
