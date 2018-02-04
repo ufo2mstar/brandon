@@ -7,7 +7,30 @@ describe Brandon do
 
 
   context Brandon::Reader do
+    def build_subject file_path
+      Brandon::Reader.new file_path
+    end
 
+    it "should fail gracefully for invalid files (nil and bad_path)" do
+      invalid_file = 'non_existant_file.yml' # invalid path
+      # expect(Brandon::Reader.new invalid_file).to raise_error(Brandon::FileNotFoundError)
+      expect {Brandon::Reader.new nil}.to raise_error(TypeError)
+      expect {Brandon::Reader.new invalid_file}.to raise_exception(Brandon::FileNotFoundError)
+    end
+
+    it "should read simple yml into hash" do
+      blank_file = 'C:\Users\kyu-homebase\repos\gems\brandon\lib\simple_test.yml' # absolute path
+      bran_reader = build_subject(blank_file)
+      res = {"one" => {"two" => [:one, "two", "three", 4, "five", {"Object" => ["more", "stuff"]}], "three" => nil, "four" => "kod"}, "Two" => nil}
+      expect(bran_reader.hsh).to eq(res)
+    end
+
+    it "should read blank yml into an empty hash" do
+      blank_file = '.\blank_test.yml' # relative path
+      bran_reader = build_subject(blank_file)
+      res = {}
+      expect(bran_reader.hsh).to eq(res)
+    end
   end
 
   context Brandon::Parser do

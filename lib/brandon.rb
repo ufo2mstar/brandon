@@ -1,9 +1,11 @@
 # require_relative "utils/output_helper"
 # require_relative "utils/err_helper"
 require 'fileutils'
+require_relative 'utils/input_helper'
 
 module Brandon
   NoPathsWarning = Class.new IOError
+  FileNotFoundError = Class.new IOError
   OverwriteError = Class.new Interrupt
 
 
@@ -39,9 +41,20 @@ module Brandon
   # to get the yml location and read it
   # init parser and send it path_to_the_root_dir, tree_hash read from the yml
   class Reader
-    def initialize tree_file
+    include YamlHelper
+    attr_accessor :hsh
 
+    def initialize tree_file
+      raise FileNotFoundError, "Sorry, can't find #{tree_file}", caller unless File.exist? tree_file
+      read_yml tree_file
     end
+
+    def read_yml(tree_file)
+      @hsh = read tree_file
+      @hsh = {} unless hsh
+    end
+
+
   end
 
   # to get the root dir and yml and build the queue of paths (dirs and file paths)
@@ -162,6 +175,7 @@ module Brandon
   end
 
   # LVL 2
+  # TODO: implement this generic yml controlled templater
   class Templater
     # opens the files and applies the appropriate templates
 
