@@ -8,18 +8,21 @@ program_desc 'template scaffold builder'
 
 flag [:t,:tasklist], :default_value => File.join(ENV['HOME'],'.todolist')
 
+$brandon = "yo"
+
 pre do |global_options,command,options,args|
-  $todo_list = Hacer::Todolist.new(global_options[:tasklist])
+  # $todo_list = Hacer::Todolist.new(global_options[:tasklist])
+  $brandon = "kod"
 end
 
 desc "Give the tree structure yml file location"
 command :tree do |c|
-
+  puts $brandon
 end
 
 desc "Give the meta-tree structure yml file location along with the tree"
 command :meta do |c|
-
+  puts $brandon.upcase
 end
 
 command :add do |c|
