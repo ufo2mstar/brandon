@@ -42,29 +42,33 @@ module Brandon
 
     Find.find("#{root_dir}/").map {|path|
       puts(strip_dir[File.file?(path) ? path : "#{path}/"])
+    # todo: hash logic
     }
 
-    puts directory_hash(root_dir).to_yaml
+    # puts directory_hash(root_dir).to_yaml
 
-    hsh = {kod: {hai: [1,"234.txt",:dd]}, "hmm" => "kod.txt"}
+    hsh = {kod: {hai: [1, "234.txt", :dd]}, "hmm" => "kod.txt"}
     puts hsh.to_yaml
     # File.open(file_name, 'w') {|f| f.puts hsh.to_yaml}
   end
-
-  def self.directory_hash(path, name=nil)
-    data = {:data => (name || path)}
-    data[:children] = children = []
-    Dir.foreach(path) do |entry|
-      next if (entry == '..' || entry == '.')
-      full_path = File.join(path, entry)
-      if File.directory?(full_path)
-        children << directory_hash(full_path, entry)
-      else
-        children << entry
-      end
-    end
-    return data
-  end
+  #
+  # def self.directory_hash(path, name=nil)
+  #   data = {:data => (name || path)}
+  #   hsh ||= {}
+  #   hsh[name||path] ||=[]
+  #   # children = hsh[path]
+  #   Dir.foreach(path) do |entry|
+  #     next if (entry == '..' || entry == '.')
+  #     full_path = File.join(path, entry)
+  #     if File.directory?(full_path)
+  #       hsh[name] << directory_hash(full_path, entry)
+  #     else
+  #       hsh[name] << entry
+  #     end
+  #   end
+  #   # return data
+  #   return hsh
+  # end
 
   def self.foundation curr_dir = "."
     template_file = "#{curr_dir}/sample_template.yml"
