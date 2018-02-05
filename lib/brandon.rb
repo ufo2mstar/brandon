@@ -1,6 +1,7 @@
 # require_relative "utils/output_helper"
 # require_relative "utils/err_helper"
 require 'fileutils'
+require 'find'
 require_relative 'utils/input_helper'
 
 module Brandon
@@ -29,6 +30,40 @@ module Brandon
     # build tree structure
     bran = Builder.new paths
     bran.build
+  end
+
+  def self.read root_dir
+    raise FileNotFoundError, "Sorry, can't find #{root_dir}", caller unless File.exist? root_dir
+    file_name = "#{root_dir}.yml".gsub("//", '')
+    raise OverwriteError, "#{file_name} already exists! lets not overwrite it..", caller if File.exist? file_name
+
+    hsh = {}
+    strip_dir=-> str {str.gsub(/#{root_dir}\//, '')}
+
+    Find.find("#{root_dir}/").map {|path|
+      puts(strip_dir[File.file?(path) ? path : "#{path}/"])
+    }
+
+    puts directory_hash(root_dir).to_yaml
+
+    hsh = {kod: {hai: [1,"234.txt",:dd]}, "hmm" => "kod.txt"}
+    puts hsh.to_yaml
+    # File.open(file_name, 'w') {|f| f.puts hsh.to_yaml}
+  end
+
+  def self.directory_hash(path, name=nil)
+    data = {:data => (name || path)}
+    data[:children] = children = []
+    Dir.foreach(path) do |entry|
+      next if (entry == '..' || entry == '.')
+      full_path = File.join(path, entry)
+      if File.directory?(full_path)
+        children << directory_hash(full_path, entry)
+      else
+        children << entry
+      end
+    end
+    return data
   end
 
   def self.foundation curr_dir = "."
@@ -212,4 +247,5 @@ end
 
 # puts Brandon.file_parse "simple_test.yml"
 
-Brandon.build "./iqhd.yml"
+# Brandon.build "./iqhd.yml"
+Brandon.read "./iqh"

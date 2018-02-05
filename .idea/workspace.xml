@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae1f6e1a-95b4-4a7e-9956-b90b7fccd083" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bran.rb" afterPath="$PROJECT_DIR$/lib/bran.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/brandon.rb" afterPath="$PROJECT_DIR$/lib/brandon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/iqhd.yml" afterPath="$PROJECT_DIR$/lib/iqhd.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/brandon_spec.rb" afterPath="$PROJECT_DIR$/lib/brandon_spec.rb" />
     </list>
     <ignored path="brandon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,17 +18,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/brandon@cosmetics.coverage" NAME="cosmetics Coverage Results" MODIFIED="1517754260130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_utils" MODULE_NAME="brandon" />
+    <SUITE FILE_PATH="coverage/brandon@brandon.coverage" NAME="brandon Coverage Results" MODIFIED="1517790977562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
+    <SUITE FILE_PATH="coverage/brandon@Run_test__default_test___brandon.coverage" NAME="Run test 'default_test': brandon Coverage Results" MODIFIED="1517712075703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="brandon" />
+    <SUITE FILE_PATH="coverage/brandon@Run_spec__brandon_spec___brandon.coverage" NAME="Run spec 'brandon_spec': brandon Coverage Results" MODIFIED="1517787920719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@output_helper.coverage" NAME="output_helper Coverage Results" MODIFIED="1517783046740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/utils" MODULE_NAME="brandon" />
+    <SUITE FILE_PATH="coverage/brandon@Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon.coverage" NAME="Brandon Static methods reads the dir path into dir.yml: brandon Coverage Results" MODIFIED="1517789959026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Run_test__my_test___brandon.coverage" NAME="Run test 'my_test': brandon Coverage Results" MODIFIED="1517709523679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_utils" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Brandon_Brandon__Builder__brandon.coverage" NAME="Brandon Brandon::Builder: brandon Coverage Results" MODIFIED="1517783841794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
-    <SUITE FILE_PATH="coverage/brandon@brandon.coverage" NAME="brandon Coverage Results" MODIFIED="1517788738546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Brandon__brandon.coverage" NAME="Brandon: brandon Coverage Results" MODIFIED="1517782569579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@build_files.coverage" NAME="build_files Coverage Results" MODIFIED="1475558249976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/brandon_the_builder" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@sel_ide_try.coverage" NAME="sel_ide_try Coverage Results" MODIFIED="1517709446216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="brandon" />
-    <SUITE FILE_PATH="coverage/brandon@Run_test__default_test___brandon.coverage" NAME="Run test 'default_test': brandon Coverage Results" MODIFIED="1517712075703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Brandon_ultimately__brandon.coverage" NAME="Brandon ultimately: brandon Coverage Results" MODIFIED="1517787832110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@input_helper.coverage" NAME="input_helper Coverage Results" MODIFIED="1517764164220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/utils" MODULE_NAME="brandon" />
-    <SUITE FILE_PATH="coverage/brandon@Run_spec__brandon_spec___brandon.coverage" NAME="Run spec 'brandon_spec': brandon Coverage Results" MODIFIED="1517787920719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -42,146 +42,90 @@
       <file leaf-file-name="brandon.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/brandon.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
               <folding>
-                <element signature="e#0#5985#0" expanded="false" />
-                <element signature="e#155#5908#1" expanded="false" />
-                <element signature="e#360#853#0" expanded="false" />
-                <element signature="e#360#853#0" expanded="false" />
-                <element signature="e#857#1300#0" expanded="false" />
-                <element signature="e#1085#1235#0" expanded="false" />
-                <element signature="e#1278#1294#0" expanded="false" />
-                <element signature="e#1304#1694#0" expanded="false" />
-                <element signature="e#1339#1688#1" expanded="false" />
-                <element signature="e#155#5908#1" expanded="false" />
-                <element signature="e#1826#2147#0" expanded="false" />
-                <element signature="e#1890#2048#0" expanded="false" />
-                <element signature="e#2054#2140#0" expanded="false" />
-                <element signature="e#2234#4508#0" expanded="false" />
-                <element signature="e#2251#4501#1" expanded="false" />
-                <element signature="e#2536#2666#0" expanded="false" />
-                <element signature="e#2251#4501#1" expanded="false" />
-                <element signature="e#2861#3071#0" expanded="false" />
-                <element signature="e#2898#3063#1" expanded="false" />
-                <element signature="e#2251#4501#1" expanded="false" />
-                <element signature="e#3239#3563#0" expanded="false" />
-                <element signature="e#3282#3555#0" expanded="false" />
-                <element signature="e#3394#3547#0" expanded="false" />
-                <element signature="e#2251#4501#1" expanded="false" />
-                <element signature="e#3728#3993#0" expanded="false" />
-                <element signature="e#3766#3985#0" expanded="false" />
-                <element signature="e#3781#3977#1" expanded="false" />
-                <element signature="e#2251#4501#1" expanded="false" />
-                <element signature="e#4225#4501#0" expanded="false" />
-                <element signature="e#4225#4501#0" expanded="false" />
-                <element signature="e#4370#4493#0" expanded="false" />
-                <element signature="e#155#5908#1" expanded="false" />
-                <element signature="e#4520#5631#0" expanded="false" />
-                <element signature="e#4538#5625#1" expanded="false" />
-                <element signature="e#4674#4860#0" expanded="false" />
-                <element signature="e#4866#5106#0" expanded="false" />
-                <element signature="e#4936#4982#0" expanded="false" />
-                <element signature="e#5027#5047#0" expanded="false" />
-                <element signature="e#5065#5086#0" expanded="false" />
-                <element signature="e#4538#5625#1" expanded="false" />
-                <element signature="e#5215#5360#0" expanded="false" />
-                <element signature="e#5366#5481#0" expanded="false" />
-                <element signature="e#5487#5625#0" expanded="false" />
-                <element signature="e#5487#5625#0" expanded="false" />
-                <element signature="e#155#5908#1" expanded="false" />
-                <element signature="e#5703#5908#0" expanded="false" />
-                <element signature="e#5703#5908#0" expanded="false" />
+                <element signature="e#0#7077#0" expanded="false" />
+                <element signature="e#170#6977#1" expanded="false" />
+                <element signature="e#375#868#0" expanded="false" />
+                <element signature="e#2154#2304#0" expanded="false" />
+                <element signature="e#2347#2363#0" expanded="false" />
+                <element signature="e#2373#2763#0" expanded="false" />
+                <element signature="e#2408#2757#1" expanded="false" />
+                <element signature="e#170#6977#1" expanded="false" />
+                <element signature="e#3123#3209#0" expanded="false" />
+                <element signature="e#3303#5577#0" expanded="false" />
+                <element signature="e#3320#5570#1" expanded="false" />
+                <element signature="e#3605#3735#0" expanded="false" />
+                <element signature="e#3320#5570#1" expanded="false" />
+                <element signature="e#3930#4140#0" expanded="false" />
+                <element signature="e#3967#4132#1" expanded="false" />
+                <element signature="e#3320#5570#1" expanded="false" />
+                <element signature="e#4308#4632#0" expanded="false" />
+                <element signature="e#4351#4624#0" expanded="false" />
+                <element signature="e#4463#4616#0" expanded="false" />
+                <element signature="e#3320#5570#1" expanded="false" />
+                <element signature="e#4797#5062#0" expanded="false" />
+                <element signature="e#4835#5054#0" expanded="false" />
+                <element signature="e#4850#5046#1" expanded="false" />
+                <element signature="e#3320#5570#1" expanded="false" />
+                <element signature="e#5294#5570#0" expanded="false" />
+                <element signature="e#5294#5570#0" expanded="false" />
+                <element signature="e#5439#5562#0" expanded="false" />
+                <element signature="e#170#6977#1" expanded="false" />
+                <element signature="e#5607#6694#1" expanded="false" />
+                <element signature="e#5935#6175#0" expanded="false" />
+                <element signature="e#6005#6051#0" expanded="false" />
+                <element signature="e#6096#6116#0" expanded="false" />
+                <element signature="e#6134#6155#0" expanded="false" />
+                <element signature="e#5607#6694#1" expanded="false" />
+                <element signature="e#6284#6429#0" expanded="false" />
+                <element signature="e#6435#6550#0" expanded="false" />
+                <element signature="e#6556#6694#0" expanded="false" />
+                <element signature="e#6556#6694#0" expanded="false" />
+                <element signature="e#170#6977#1" expanded="false" />
+                <element signature="e#6772#6977#0" expanded="false" />
+                <element signature="e#6772#6977#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple_test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/simple_test.yml">
+      <file leaf-file-name="sample_template.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/sample_template.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iqhd.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/iqhd.yml">
+      <file leaf-file-name="tmpdir.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/tmpdir.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-432">
-              <caret line="22" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="11" />
+            <state relative-caret-position="248">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complex_test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/complex_test.yml">
+      <file leaf-file-name="example.rb" pinned="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="2548">
+              <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bran.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bran.rb">
+      <file leaf-file-name="brandon_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/brandon_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bran.rdoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/bran.rdoc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bran.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/lib/bran.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/Rakefile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bran" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/bin/bran">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dsl.rb" pinned="false" current-in-tab="false">
-        <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/gli-2.17.1/lib/gli/dsl.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="91" column="8" lean-forward="false" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+            <state relative-caret-position="228">
+              <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -239,9 +183,9 @@
         <option value="$PROJECT_DIR$/lib/utils/input_helper.rb" />
         <option value="$PROJECT_DIR$/lib/utils/output_helper.rb" />
         <option value="$PROJECT_DIR$/lib/complex_test.yml" />
-        <option value="$PROJECT_DIR$/lib/brandon_spec.rb" />
         <option value="$PROJECT_DIR$/lib/bran.rb" />
         <option value="$PROJECT_DIR$/lib/iqhd.yml" />
+        <option value="$PROJECT_DIR$/lib/brandon_spec.rb" />
         <option value="$PROJECT_DIR$/lib/brandon.rb" />
       </list>
     </option>
@@ -383,52 +327,6 @@
             <path>
               <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
               <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-              <item name="hd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-              <item name="hd" type="462c0819:PsiDirectoryNode" />
-              <item name="bkup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-              <item name="hd" type="462c0819:PsiDirectoryNode" />
-              <item name="impt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-              <item name="hd" type="462c0819:PsiDirectoryNode" />
-              <item name="junk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="iqhd" type="462c0819:PsiDirectoryNode" />
-              <item name="hd" type="462c0819:PsiDirectoryNode" />
-              <item name="junk" type="462c0819:PsiDirectoryNode" />
-              <item name="iq_series" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="brandon" type="462c0819:PsiDirectoryNode" />
               <item name="temps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -516,6 +414,34 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
+    <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="brandon" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/brandon_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Brandon Static methods reads the dir path into dir.yml" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="3.5.4" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
@@ -716,34 +642,20 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/brandon.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
-    <configuration name="output_helper" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="brandon" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib/utils" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/utils/output_helper.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.output_helper" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Brandon Brandon::Builder: brandon" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'brandon_spec': brandon" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Brandon ultimately: brandon" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Brandon Brandon::Builder: brandon" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'brandon_spec': brandon" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.Brandon ultimately: brandon" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Brandon Static methods reads the dir path into dir.yml: brandon" />
       <item index="4" class="java.lang.String" itemvalue="Ruby.brandon" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Ruby.brandon" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'brandon_spec': brandon" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Brandon ultimately: brandon" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Brandon Brandon::Builder: brandon" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.output_helper" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Brandon Static methods reads the dir path into dir.yml: brandon" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'brandon_spec': brandon" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Brandon ultimately: brandon" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.Brandon Brandon::Builder: brandon" />
       </list>
     </recent_temporary>
   </component>
@@ -767,7 +679,7 @@
       <workItem from="1517194330342" duration="1773000" />
       <workItem from="1517588256302" duration="857000" />
       <workItem from="1517624188654" duration="3880000" />
-      <workItem from="1517709029676" duration="35468000" />
+      <workItem from="1517709029676" duration="37707000" />
     </task>
     <task id="LOCAL-00001" summary="CODE: log specs added">
       <created>1455744255808</created>
@@ -888,24 +800,31 @@
       <option name="project" value="LOCAL" />
       <updated>1517787952092</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="BRAN: running well">
+      <created>1517788866818</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1517788866818</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 38m 05s.xml">
-      <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon - 2018.02.04 at 19h 17m 49s.xml">
+      <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 38m 16s.xml">
-      <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon - 2018.02.04 at 19h 18m 05s.xml">
+      <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 42m 18s.xml">
-      <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon - 2018.02.04 at 19h 18m 49s.xml">
+      <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 42m 21s.xml">
-      <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon - 2018.02.04 at 19h 19m 01s.xml">
+      <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 42m 42s.xml">
-      <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Brandon_Static_methods_reads_the_dir_path_into_dir_yml__brandon - 2018.02.04 at 19h 22m 02s.xml">
+      <configuration name="Brandon Static methods reads the dir path into dir.yml: brandon" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Brandon_ultimately__brandon - 2018.02.04 at 18h 43m 08s.xml">
       <configuration name="Brandon ultimately: brandon" configurationId="RSpecRunConfigurationType" />
@@ -924,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54674000" />
+    <option name="totallyTimeSpent" value="56913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -1009,7 +928,8 @@
     <MESSAGE value="SPEC: reader specs started" />
     <MESSAGE value="SPEC: good coverage on all task methods" />
     <MESSAGE value="SPEC: first 100% integrated" />
-    <option name="LAST_COMMIT_MESSAGE" value="SPEC: first 100% integrated" />
+    <MESSAGE value="BRAN: running well" />
+    <option name="LAST_COMMIT_MESSAGE" value="BRAN: running well" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1020,7 +940,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/brandon.rb</url>
-          <line>212</line>
+          <line>247</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
@@ -1030,39 +950,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/brandon_spec.rb</url>
-          <line>176</line>
+          <line>187</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/brandon_spec.rb</url>
+          <line>146</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/brandon.rb</url>
+          <line>42</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/brandon.rb</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/kod/todo/features/todo.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kod/todo/lib/todo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kod/todo/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/kod/todo/bin/todo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-280">
@@ -1289,22 +1200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-support-3.7.1/lib/rspec/support.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="285" column="0" lean-forward="false" selection-start-line="285" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.7.1/lib/rspec/core/example_group.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -1353,22 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sample_template.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/brandon_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="147" column="4" lean-forward="false" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/gli-2.17.1/lib/gli/dsl.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1378,14 +1257,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/bran.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/lib/bran.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1441,58 +1312,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gliapp/bran/lib/bran.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/psych/core_ext.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/brandon_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/tmpdir.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-support-3.7.1/lib/rspec/support.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rspec-core-3.7.1/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2548">
+          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/iqh.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sample_template.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/brandon.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
-            <element signature="e#0#5985#0" expanded="false" />
-            <element signature="e#155#5908#1" expanded="false" />
-            <element signature="e#360#853#0" expanded="false" />
-            <element signature="e#360#853#0" expanded="false" />
-            <element signature="e#857#1300#0" expanded="false" />
-            <element signature="e#1085#1235#0" expanded="false" />
-            <element signature="e#1278#1294#0" expanded="false" />
-            <element signature="e#1304#1694#0" expanded="false" />
-            <element signature="e#1339#1688#1" expanded="false" />
-            <element signature="e#155#5908#1" expanded="false" />
-            <element signature="e#1826#2147#0" expanded="false" />
-            <element signature="e#1890#2048#0" expanded="false" />
-            <element signature="e#2054#2140#0" expanded="false" />
-            <element signature="e#2234#4508#0" expanded="false" />
-            <element signature="e#2251#4501#1" expanded="false" />
-            <element signature="e#2536#2666#0" expanded="false" />
-            <element signature="e#2251#4501#1" expanded="false" />
-            <element signature="e#2861#3071#0" expanded="false" />
-            <element signature="e#2898#3063#1" expanded="false" />
-            <element signature="e#2251#4501#1" expanded="false" />
-            <element signature="e#3239#3563#0" expanded="false" />
-            <element signature="e#3282#3555#0" expanded="false" />
-            <element signature="e#3394#3547#0" expanded="false" />
-            <element signature="e#2251#4501#1" expanded="false" />
-            <element signature="e#3728#3993#0" expanded="false" />
-            <element signature="e#3766#3985#0" expanded="false" />
-            <element signature="e#3781#3977#1" expanded="false" />
-            <element signature="e#2251#4501#1" expanded="false" />
-            <element signature="e#4225#4501#0" expanded="false" />
-            <element signature="e#4225#4501#0" expanded="false" />
-            <element signature="e#4370#4493#0" expanded="false" />
-            <element signature="e#155#5908#1" expanded="false" />
-            <element signature="e#4520#5631#0" expanded="false" />
-            <element signature="e#4538#5625#1" expanded="false" />
-            <element signature="e#4674#4860#0" expanded="false" />
-            <element signature="e#4866#5106#0" expanded="false" />
-            <element signature="e#4936#4982#0" expanded="false" />
-            <element signature="e#5027#5047#0" expanded="false" />
-            <element signature="e#5065#5086#0" expanded="false" />
-            <element signature="e#4538#5625#1" expanded="false" />
-            <element signature="e#5215#5360#0" expanded="false" />
-            <element signature="e#5366#5481#0" expanded="false" />
-            <element signature="e#5487#5625#0" expanded="false" />
-            <element signature="e#5487#5625#0" expanded="false" />
-            <element signature="e#155#5908#1" expanded="false" />
-            <element signature="e#5703#5908#0" expanded="false" />
-            <element signature="e#5703#5908#0" expanded="false" />
+            <element signature="e#0#7077#0" expanded="false" />
+            <element signature="e#170#6977#1" expanded="false" />
+            <element signature="e#375#868#0" expanded="false" />
+            <element signature="e#2154#2304#0" expanded="false" />
+            <element signature="e#2347#2363#0" expanded="false" />
+            <element signature="e#2373#2763#0" expanded="false" />
+            <element signature="e#2408#2757#1" expanded="false" />
+            <element signature="e#170#6977#1" expanded="false" />
+            <element signature="e#3123#3209#0" expanded="false" />
+            <element signature="e#3303#5577#0" expanded="false" />
+            <element signature="e#3320#5570#1" expanded="false" />
+            <element signature="e#3605#3735#0" expanded="false" />
+            <element signature="e#3320#5570#1" expanded="false" />
+            <element signature="e#3930#4140#0" expanded="false" />
+            <element signature="e#3967#4132#1" expanded="false" />
+            <element signature="e#3320#5570#1" expanded="false" />
+            <element signature="e#4308#4632#0" expanded="false" />
+            <element signature="e#4351#4624#0" expanded="false" />
+            <element signature="e#4463#4616#0" expanded="false" />
+            <element signature="e#3320#5570#1" expanded="false" />
+            <element signature="e#4797#5062#0" expanded="false" />
+            <element signature="e#4835#5054#0" expanded="false" />
+            <element signature="e#4850#5046#1" expanded="false" />
+            <element signature="e#3320#5570#1" expanded="false" />
+            <element signature="e#5294#5570#0" expanded="false" />
+            <element signature="e#5294#5570#0" expanded="false" />
+            <element signature="e#5439#5562#0" expanded="false" />
+            <element signature="e#170#6977#1" expanded="false" />
+            <element signature="e#5607#6694#1" expanded="false" />
+            <element signature="e#5935#6175#0" expanded="false" />
+            <element signature="e#6005#6051#0" expanded="false" />
+            <element signature="e#6096#6116#0" expanded="false" />
+            <element signature="e#6134#6155#0" expanded="false" />
+            <element signature="e#5607#6694#1" expanded="false" />
+            <element signature="e#6284#6429#0" expanded="false" />
+            <element signature="e#6435#6550#0" expanded="false" />
+            <element signature="e#6556#6694#0" expanded="false" />
+            <element signature="e#6556#6694#0" expanded="false" />
+            <element signature="e#170#6977#1" expanded="false" />
+            <element signature="e#6772#6977#0" expanded="false" />
+            <element signature="e#6772#6977#0" expanded="false" />
           </folding>
         </state>
       </provider>

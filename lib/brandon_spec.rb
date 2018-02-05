@@ -136,6 +136,17 @@ describe Brandon, :unit do
       end
     end
 
+    it "reads the dir path into dir.yml" do
+      Dir.mktmpdir do |dir|
+        # setup dir tree
+        Brandon.foundation dir
+        Brandon.build "#{dir}/sample_template.yml"
+        FileUtils.rm "#{dir}/sample_template.yml"
+
+        #
+        Brandon.read "#{dir}/sample_template"
+      end
+    end
   end
 end
 
