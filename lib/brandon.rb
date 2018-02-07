@@ -43,7 +43,7 @@ module Brandon
 
     Find.find("#{root_dir}/").map {|path|
       puts(strip_dir[File.file?(path) ? path : "#{path}/"])
-    # todo: hash logic
+      # todo: hash logic
     }
 
     # puts directory_hash(root_dir).to_yaml
@@ -52,6 +52,7 @@ module Brandon
     puts hsh.to_yaml
     # File.open(file_name, 'w') {|f| f.puts hsh.to_yaml}
   end
+
   #
   # def self.directory_hash(path, name=nil)
   #   data = {:data => (name || path)}
@@ -117,7 +118,7 @@ one:
 
     def read_yml(tree_file)
       @hsh = read tree_file
-      @hsh = {} unless hsh
+      @hsh ||= {}
     end
 
   end
