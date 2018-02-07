@@ -4,4 +4,5 @@ source "https://rubygems.org" do
   gem 'hacer'
 
   gem 'simplecov'
+  gem 'fivemat'
 end

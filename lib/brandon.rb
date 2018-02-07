@@ -3,6 +3,7 @@
 require 'fileutils'
 require 'find'
 require_relative 'utils/input_helper'
+require 'fivemat'
 
 module Brandon
   NoPathsWarning = Class.new IOError
@@ -252,4 +253,4 @@ end
 # puts Brandon.file_parse "simple_test.yml"
 
 # Brandon.build "./iqhd.yml"
-Brandon.read "./iqh"
+# Brandon.read "./iqh"
