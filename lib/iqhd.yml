@@ -18,6 +18,7 @@ hd:
           done:
       other:
     iq_files:
+      prog_data:
       docs:
       recs:
         talks:
@@ -57,6 +58,9 @@ hd:
     iq_images:
       assorted:
       peoples:
+    iq_games:
+      setups:
+      saves:
   junk:
     iq_series:
       todo:

@@ -3,7 +3,6 @@
 require 'fileutils'
 require 'find'
 require_relative 'utils/input_helper'
-require 'fivemat'
 
 module Brandon
   NoPathsWarning = Class.new IOError
@@ -75,6 +74,7 @@ module Brandon
   def self.foundation curr_dir = "."
     template_file = "#{curr_dir}/sample_template.yml"
     raise OverwriteError, "#{template_file} already exists! lets not overwrite it..", caller if File.exist? template_file
+    # Base64.encode64 maybe?
     str = <<-eos
 one:
   two:
@@ -206,7 +206,7 @@ one:
     # get the paths queue and builds it all out
     # @param [Array<Paths>] paths dirs and files to be created
     def initialize paths
-      raise(NoPathsWarning, "No parsed paths to build!") if paths.nil? or paths.empty?
+      raise(NoPathsWarning, "No parsed paths to build!") if paths.nil? or paths.empty? # and check path validity maybe?
       check_if_overwriting paths[0]
       @paths = paths
       # build
@@ -253,5 +253,5 @@ end
 
 # puts Brandon.file_parse "simple_test.yml"
 
-# Brandon.build "./iqhd.yml"
+Brandon.build "./iqhd.yml"
 # Brandon.read "./iqh"
