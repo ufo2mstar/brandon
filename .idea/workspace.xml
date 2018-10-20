@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae1f6e1a-95b4-4a7e-9956-b90b7fccd083" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/isshd.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/brandon.rb" afterPath="$PROJECT_DIR$/lib/brandon.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/iqhd.yml" afterPath="$PROJECT_DIR$/lib/iqhd.yml" />
     </list>
     <ignored path="brandon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/brandon@cosmetics.coverage" NAME="cosmetics Coverage Results" MODIFIED="1517754260130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log_utils" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Brandon_Static_methods__brandon.coverage" NAME="Brandon Static methods: brandon Coverage Results" MODIFIED="1517804869131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
-    <SUITE FILE_PATH="coverage/brandon@brandon.coverage" NAME="brandon Coverage Results" MODIFIED="1518395423944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
+    <SUITE FILE_PATH="coverage/brandon@brandon.coverage" NAME="brandon Coverage Results" MODIFIED="1540010204139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Run_test__default_test___brandon.coverage" NAME="Run test 'default_test': brandon Coverage Results" MODIFIED="1517712075703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@Run_spec__brandon_spec___brandon.coverage" NAME="Run spec 'brandon_spec': brandon Coverage Results" MODIFIED="1518395115063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="brandon" />
     <SUITE FILE_PATH="coverage/brandon@output_helper.coverage" NAME="output_helper Coverage Results" MODIFIED="1517783046740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/utils" MODULE_NAME="brandon" />
@@ -40,21 +40,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="brandon.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="brandon.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/brandon.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iqhd.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="iqhd.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/iqhd.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="isshd.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/isshd.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,13 +103,14 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$</find>
       <find>OverwriteError</find>
       <find>.</find>
       <find>$PROJECT_DIR$/../../../../KYU-HO~1/AppData/Local/Temp/d20180204-11032-ziuyhu/</find>
+      <find>$</find>
       <find>\t</find>
     </findStrings>
     <replaceStrings>
+      <replace />
       <replace>:</replace>
       <replace />
     </replaceStrings>
@@ -138,8 +149,8 @@
         <option value="$PROJECT_DIR$/.rspec" />
         <option value="$PROJECT_DIR$/lib/brandon_spec.rb" />
         <option value="$PROJECT_DIR$/lib/.rspec" />
-        <option value="$PROJECT_DIR$/lib/brandon.rb" />
         <option value="$PROJECT_DIR$/lib/iqhd.yml" />
+        <option value="$PROJECT_DIR$/lib/brandon.rb" />
       </list>
     </option>
   </component>
@@ -150,7 +161,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1050" />
   </component>
@@ -213,7 +224,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +244,12 @@
             <path>
               <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
               <item name="brandon" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="isshd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="brandon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="brandon" type="462c0819:PsiDirectoryNode" />
               <item name="temps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,25 +260,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js/react-sinatra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kyu-homebase\repos\gems\brandon\lib" />
-      <recent name="C:\Users\kyu-homebase\repos\gems\brandon\lib\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kyu-homebase\repos\gems\brandon\lib" />
       <recent name="C:\Users\kyu-homebase\repos\brandon\temps" />
       <recent name="C:\Users\kyu-homebase\repos\brandon\brandon_the_builder\temp_lordFrey\" />
       <recent name="C:\Users\kyu-homebase\repos\brandon\log_utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kyu-homebase\repos\gems\brandon\lib" />
+      <recent name="C:\Users\kyu-homebase\repos\gems\brandon\lib\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -568,7 +585,10 @@
       <workItem from="1517709029676" duration="42746000" />
       <workItem from="1517878594972" duration="3196000" />
       <workItem from="1518099157703" duration="1908000" />
-      <workItem from="1518269803603" duration="3355000" />
+      <workItem from="1518269803603" duration="3990000" />
+      <workItem from="1518888231155" duration="624000" />
+      <workItem from="1519412105116" duration="1183000" />
+      <workItem from="1540009992914" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="CODE: log specs added">
       <created>1455744255808</created>
@@ -724,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517983635628</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="BRAN: WIP: iqhd changes">
+      <created>1518415951755</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1518415951755</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -760,22 +787,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70411000" />
+    <option name="totallyTimeSpent" value="73441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20654507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38651684" sideWeight="0.5032189" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38651684" sideWeight="0.4967811" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946351" sideWeight="0.492674" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.492674" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988764" sideWeight="0.49784714" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -850,7 +876,8 @@
     <MESSAGE value="BRAN: WIP: reader hash todo" />
     <MESSAGE value="BRAN: WIP: minor fixes" />
     <MESSAGE value="BRAN: WIP: need to check .65 sec spec" />
-    <option name="LAST_COMMIT_MESSAGE" value="BRAN: WIP: need to check .65 sec spec" />
+    <MESSAGE value="BRAN: WIP: iqhd changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="BRAN: WIP: iqhd changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -895,13 +922,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brandon_the_builder/temp_lordFrey/utm_pages/temp_page.rb.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/brandon_the_builder/temp_lordFrey/utm_pages/element_modules/_temp_elements.rb.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1210,7 +1230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,18 +1256,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/brandon.rb">
+    <entry file="file://$PROJECT_DIR$/lib/iqhd.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/iqhd.yml">
+    <entry file="file://$PROJECT_DIR$/lib/isshd.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/brandon.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="20" selection-end-line="256" selection-end-column="20" />
           <folding />
         </state>
       </provider>
