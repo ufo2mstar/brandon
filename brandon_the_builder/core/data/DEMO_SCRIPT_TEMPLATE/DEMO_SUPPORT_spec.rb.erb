@@ -1,0 +1,12 @@
+describe '<%= demo_support_name %>' do
+  let(:helper) { <%= demo_support_name %>.new }
+  context 'public_mtd' do
+    it 'testRun' do
+      inp = {}
+      exp = []
+      res = helper.public_mtd(inp)
+
+      expect(res).to match_array(exp)
+    end
+  end
+end

@@ -5,4 +5,6 @@ source "https://rubygems.org" do
 
   gem 'simplecov'
   gem 'fivemat'
+
+  gem 'amazing_print'
 end

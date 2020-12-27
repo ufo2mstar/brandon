@@ -1,0 +1,21 @@
+class <%= demo_script_name %>Script < BaseScript
+
+  def initialize
+    ap "init <%= demo_script_name %>Script"
+    @this_dir = File.dirname(__FILE__)
+    @this_binding = binding
+    @runner = <%= demo_script_support_name %>.new
+  end
+
+  def run_script(input_params)
+    @res = []
+    input1_data = input_params['input1']
+    input2_data = input_params['input2']
+
+    @res = @runner.public_mtd(input1_data, input2_data)
+
+    res = @res.join ','
+    {res: res}
+  end
+
+end

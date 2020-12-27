@@ -1,0 +1,17 @@
+{
+  "title": "Demo Template Script",
+  "type": "object",
+  "required": [
+    "input1"
+  ],
+  "properties": {
+    "input1": {
+      "type": "string",
+      "title": "Single-line Input"
+    },
+    "input2": {
+      "type": "string",
+      "title": "Multi-line Input"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+
+class <%= demo_support_name %>
+  DemoError = Class.new(RuntimeError)
+
+  def public_mtd(input1_data, input2_data)
+    raise DemoError if input1_data.nil?
+
+    private_mtd input1_data, input2_data
+  end
+
+  private
+  def private_mtd input1_data, input2_data
+    # ap input1_data
+    # ap input2_data
+    [input1_data, input2_data]
+  end
+end
+

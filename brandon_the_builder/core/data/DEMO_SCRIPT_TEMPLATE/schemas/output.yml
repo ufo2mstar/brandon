@@ -1,0 +1,13 @@
+{
+  "title": "Demo Template Script Output",
+  type: 'object',
+  properties: {
+    output_format: {
+      type: 'string',
+      title: 'Select your Output Format:',
+      enum: ['json', 'code', 'html', 'link', 'debug', 'error'],
+      enumNames: ['JSON', 'CODE', 'HTML', 'LINK', 'DEBUG', 'ERROR'],
+      default: 'code',
+    },
+  },
+}

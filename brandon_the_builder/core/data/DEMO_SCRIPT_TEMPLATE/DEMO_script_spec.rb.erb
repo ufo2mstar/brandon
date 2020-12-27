@@ -1,0 +1,19 @@
+
+describe '<%= demo_script_name %>Script' do
+  let(:script) { <%= demo_script_name %>Script.new }
+  context 'converter' do
+    def local_run_test(input_file)
+      run_json_test_block(input_file, File.dirname(__FILE__), true) do |input_string|
+        input = YAML.safe_load(input_string)
+        script.run_script(input)
+      end
+    end
+
+    it '01_demo_simple_example.yml' do
+      local_run_test '01_demo_simple_example.yml'
+    end
+    it '02_demo_complex_example.yml' do
+      local_run_test '02_demo_complex_example.yml'
+    end
+  end
+end
