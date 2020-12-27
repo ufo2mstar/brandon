@@ -4,7 +4,7 @@ class <%= demo_script_name %>Script < BaseScript
     ap "init <%= demo_script_name %>Script"
     @this_dir = File.dirname(__FILE__)
     @this_binding = binding
-    @runner = <%= demo_script_support_name %>.new
+    @runner = <%= demo_support_name %>.new
   end
 
   def run_script(input_params)

@@ -108,5 +108,7 @@ brandon_the_builder/pipelines_app/
 # just ignore all idea files
 .idea/
 
+**/temp/
+
 gemfile.lock
 
