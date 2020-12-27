@@ -20,5 +20,17 @@ describe 'BrandonBuilder' do
       expect(res).to match_snapshot 'demo_init-template_map'
     end
   end
+
+  context 'walk' do
+    it 'should read dir files' do
+      root = File.join(THIS_DIR, 'data', 'DEMO_SCRIPT_TEMPLATE')
+      bran = BrandonBuilder.new root
+
+      base = File.basename(root)
+      dir = File.dirname(root)
+      res = bran.dir_map.map{|s| s.gsub(dir,'')}
+      expect(res).to match_snapshot 'demo_walk'
+    end
+  end
 end
 
