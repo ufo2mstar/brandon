@@ -18,6 +18,18 @@ module BrandonSupport
   end
 end
 
+module BrandonSubs
+  def sub_names content_path, sub_names_hash
+    res = content_path
+    sub_names_hash.each { |from, to| res = res.gsub(from, to) }
+    res
+  end
+
+  def sub_contents content_file_path, sub_contents_hash
+    ERB.new(File.read(content_file_path)).result_with_hash sub_contents_hash
+  end
+end
+
 class BrandonBuilder
   attr_accessor :template_map, :dir_map
   include BrandonSupport
@@ -33,9 +45,10 @@ class BrandonBuilder
   def create(dest_path)
     ap dest_path
     @dir_map.each do |source|
-      dest = source.gsub(@template_source, dest_path)
+      subbed_source = sub_names @template_source, @template_map.names
+      dest = source.gsub(subbed_source, dest_path)
       if File.directory? source
-        ap dest
+        ap "make_dir #{dest}"
         # make_dir dest
       else # File.file? path
         ap "fill_file #{dest}, #{source}"
@@ -52,7 +65,11 @@ class BrandonBuilder
   end
 
   def fill_file dest, source
-
+    ap "make_file #{dest}"
+    # make_file dest
+    new_contents = sub_contents source, @template_map.contents
+    ap new_contents
+    # File.open(dest, 'w') { |f| f.puts new_contents }
   end
 
   def get_page_structure
