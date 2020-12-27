@@ -1,0 +1,8 @@
+names:
+  DEMO_SCRIPT_TEMPLATE: graphviz
+  DEMO_SUPPORT: graphviz_support
+  DEMO: graphviz
+
+contents:
+  demo_script_name: Graphviz
+  demo_support_name: GraphvizSupport

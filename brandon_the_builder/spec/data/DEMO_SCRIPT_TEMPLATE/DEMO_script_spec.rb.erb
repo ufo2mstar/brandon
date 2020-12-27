@@ -1,5 +1,6 @@
 
 describe '<%= demo_script_name %>Script' do
+  include TestRunHelper
   let(:script) { <%= demo_script_name %>Script.new }
   context 'converter' do
     def local_run_test(input_file)

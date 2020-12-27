@@ -53,7 +53,7 @@ describe 'BrandonBuilder' do
     it 'should create sample' do
       source = File.join(DATA_DIR, 'DEMO_SCRIPT_TEMPLATE')
       dest = DEST_DIR
-      bran = BrandonBuilder.new source, 'sample_brandon_maps.yml'
+      bran = BrandonBuilder.new source, 'brandon_maps-graphviz.yml'
 
       base = File.basename(source)
       dir = File.dirname(source)

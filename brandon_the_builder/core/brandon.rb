@@ -45,7 +45,7 @@ class BrandonBuilder
   def initialize(template_source_path, template_maps_file = BRANDON_TEMPLATE_MAPS)
     @template_source = template_source_path
     @template_map = read_brandon_map(template_source_path, template_maps_file)
-    @dir_map = Dir["#{template_source_path}/**/*"].reject { |f| f =~ /#{BRANDON_TEMPLATE_MAPS}/ }
+    @dir_map = Dir["#{template_source_path}/**/*"].reject { |f| f =~ /#{BRANDON_TEMPLATE_MAPS.split('.')[0]}/ }
   end
 
   def create(dest_path)
