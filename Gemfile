@@ -7,4 +7,5 @@ source "https://rubygems.org" do
   gem 'fivemat'
 
   gem 'amazing_print'
+  gem 'rspec-snapshot'
 end
