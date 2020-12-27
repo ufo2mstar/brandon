@@ -254,5 +254,7 @@ end
 # puts Brandon.file_parse "simple_test.yml"
 
 # Brandon.build "./iqhd.yml"
-Brandon.build "./isshd.yml"
+# Brandon.build "./isshd.yml"
+# Brandon.build "./components.yml"
+Brandon.build "./components-ary.yml"
 # Brandon.read "./iqh"

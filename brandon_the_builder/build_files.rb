@@ -118,7 +118,7 @@ class BuildStruct
 
   def get_page_structure
     erb = ERB.new(File.read('structure_template.yml')).result @bin
-    # yp erb
+    yp erb
     hsh = YAML.load erb.gsub("=>", ": ")
     # yp hsh
   end
